@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 </head>
+
 <body>
+    <h1>table 1</h1>
     <table>
         <tr>
             <th scope="col" colspan="2">Title1</th>
@@ -25,7 +28,7 @@
             <td colspan="3">dato3.1</td>
 
         </tr>
-            
+
         <tr>
             <td>dato1.2</td>
             <td>dato2.2</td>
@@ -40,37 +43,32 @@
         </tr>
     </table>
 
-    <h1>tabla 2</h1>
+    <h1>table 2</h1>
 
     <table>
         <tr>
-            <th scope="low">title1</th>
+            <th rowspan="2">title1</th>
+            <td colspan="3">1</td>
+            <td rowspan="4">2</td>
+        </tr>
+        <tr>
             <td>1</td>
             <td>2</td>
             <td>3</td>
         </tr>
         <tr>
-            <th scope="low">Title2</th>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
+            <th scope="low" rowspan="2">Title2</th>
+            <td colspan="2">1</td>
+            <td colspan="2">2</td>
         </tr>
         <tr>
-            <th scope="low">title3</th>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <th scope="low">title4</th>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
+            <td rowspan="1">1</td>
         </tr>
     </table>
 
 
 
-    
+
 </body>
+
 </html>
